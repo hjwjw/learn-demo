@@ -6,5 +6,5 @@ learn-demo
 ---
 
 - Odata
-  - [使用odata4j 消费OdataV2 服务](https://github.com/hjwjw/learn-demo/tree/master/odataConsumer)
+  - [使用odata4j 消费OdataV2 服务](https://github.com/hjwjw/learn-demo/tree/master/odata-v2-consumer)
 
