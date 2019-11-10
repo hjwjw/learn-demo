@@ -12,3 +12,5 @@ learn-demo
 - Soap
   - [Soap 服务示例](https://github.com/hjwjw/learn-demo/tree/master/SOAP)
 
+- LDAP
+  - [Ldap-spring 实现示例](https://github.com/hjwjw/learn-demo/tree/master/LDAP/spring-ldap)
