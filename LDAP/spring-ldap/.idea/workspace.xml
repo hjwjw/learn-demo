@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4e05572f-a927-4e85-8153-7355f533d52b" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Su4ubJXbXcPJokmCa1ihUHjpMJ" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.54968286" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.LdapTest.springLdapConn">
+    <configuration name="AdLogin.checkADLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-ldap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.hjwjw.spring.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.hjwjw.spring.controller" />
+      <option name="MAIN_CLASS_NAME" value="io.hjwjw.spring.controller.AdLogin" />
+      <option name="METHOD_NAME" value="checkADLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LdapTest.ldapConn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-ldap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.hjwjw.spring.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.hjwjw.spring.controller" />
+      <option name="MAIN_CLASS_NAME" value="io.hjwjw.spring.controller.LdapTest" />
+      <option name="METHOD_NAME" value="ldapConn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LdapTest.ldapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-ldap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.hjwjw.spring.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.hjwjw.spring.controller" />
+      <option name="MAIN_CLASS_NAME" value="io.hjwjw.spring.controller.LdapTest" />
+      <option name="METHOD_NAME" value="ldapTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LdapTest.metLifeLdapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-ldap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.hjwjw.spring.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.hjwjw.spring.controller" />
+      <option name="MAIN_CLASS_NAME" value="io.hjwjw.spring.controller.LdapTest" />
+      <option name="METHOD_NAME" value="metLifeLdapTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LdapTest.springLdapConn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-ldap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.hjwjw.spring.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.hjwjw.spring.controller" />
+      <option name="MAIN_CLASS_NAME" value="io.hjwjw.spring.controller.LdapTest" />
+      <option name="METHOD_NAME" value="springLdapConn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LdapTest.springLdapConn" />
+        <item itemvalue="JUnit.LdapTest.ldapTest" />
+        <item itemvalue="JUnit.LdapTest.metLifeLdapTest" />
+        <item itemvalue="JUnit.LdapTest.ldapConn" />
+        <item itemvalue="JUnit.AdLogin.checkADLogin" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e05572f-a927-4e85-8153-7355f533d52b" name="Default Changelist" comment="" />
+      <created>1572400369490</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572400369490</updated>
+      <workItem from="1572400373047" duration="11630000" />
+      <workItem from="1572523454517" duration="491000" />
+      <workItem from="1572525457605" duration="556000" />
+      <workItem from="1573006067235" duration="384000" />
+      <workItem from="1573008063375" duration="593000" />
+      <workItem from="1573040898213" duration="651000" />
+      <workItem from="1573041889968" duration="318000" />
+      <workItem from="1573114674113" duration="19000" />
+      <workItem from="1573204275671" duration="1620000" />
+      <workItem from="1573387751421" duration="708000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/io/hjwjw/spring/controller/AdLoginAndSearch.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/io/hjwjw/spring/controller/AdLoginAndSearch.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="ctx.get" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
