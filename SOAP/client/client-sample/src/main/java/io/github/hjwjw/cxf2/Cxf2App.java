@@ -1,6 +1,7 @@
 package io.github.hjwjw.cxf2;
 
 import com.alibaba.fastjson.JSON;
+import io.github.hjwjw.cxf.Person;
 import org.apache.cxf.endpoint.Client;
 import org.apache.cxf.endpoint.ClientImpl;
 import org.apache.cxf.endpoint.Endpoint;
@@ -26,17 +27,17 @@ public class Cxf2App {
 
     public static void main(String[] args) {
 
-        SysCategoryWbSReq sysCategoryWbSReq = new SysCategoryWbSReq();
-        sysCategoryWbSReq.setCategoryCode("111");
-        sysCategoryWbSReq.setCategoryName("metlife");
-        sysCategoryWbSReq.setEnabledFlag(0);
+        Person person = new Person();
+        person.setName("HJW");
+        person.setAge("8");
+        person.setSex("m");
         List<Object> paramList = new ArrayList<>();
-        paramList.add(JSON.toJSONString(sysCategoryWbSReq));
+        paramList.add(JSON.toJSONString(person));
 
-        String result = dynamicCallWebServiceByCXF("http://127.0.0.1:9095/application/applicationWBS/addAndUpdateSyscategory?wsdl",
-                "addAndUpdateSyscategory",
-                "http://applicationWBS.expense.app.com",
-                "ApplicationWbService",
+        String result = dynamicCallWebServiceByCXF("http://127.0.0.1:8080/service/hello?wsdl",
+                "sayHello",
+                "http://service.app.sample.hjwjw.github.io",
+                "HelloWorld",
                 paramList);
         System.out.println(result);
     }
