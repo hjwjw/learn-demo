@@ -162,3 +162,4 @@ local.properties
 /annotationAndAspect/annotationAndAspect.iml
 /SOAP/client/client-sample/client-sample.iml
 /LDAP/spring-ldap/spring-ldap.iml
+**/.mvn/
