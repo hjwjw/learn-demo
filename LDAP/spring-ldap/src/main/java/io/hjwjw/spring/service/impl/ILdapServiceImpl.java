@@ -40,10 +40,8 @@ public class ILdapServiceImpl implements ILdapService {
     /**
      * 获取用户列表
      */
-    @Override
     public List<User> getPersonList(String ldapBase, Filter filter) {
         return ldapTemplate.search(ldapBase, filter.encode(), new AttributesMapper() {
-            @Override
             public User mapFromAttributes(Attributes attr) throws NamingException, javax.naming.NamingException {
                 User person = new User();
                 String distingugihedName = (String)attr.get("distinguishedName").get();
@@ -71,7 +69,6 @@ public class ILdapServiceImpl implements ILdapService {
      * @param password
      * @return
      */
-    @Override
     public boolean authenticate(String userName, String password) {
         String userDomainName = String.format(ldapDomainName, userName);
         DirContext ctx = null;
